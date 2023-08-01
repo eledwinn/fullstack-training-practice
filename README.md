@@ -1,5 +1,13 @@
 # Fullstack training practice
 
+## How to run it
+
+After clone/download the code, please use `npm install` to insall dependencies.
+
+Then execute `npm start` to start the static web server.
+
+Go to your browser and open http://127.0.0.1:8080.
+
 ## Contributing
 
 ### Use branching model
