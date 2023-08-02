@@ -1,48 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Training</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Training</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
 
-    .people-wrapper {
-			--auto-grid-min-size: 16rem;
-			display: grid;
-			grid-gap: 2rem;
-			grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-			margin: 0;
-			padding: 0;
-			box-sizing: border-box;
-      font-family: 'Montserrat', sans-serif;
-		}
+			.people-wrapper {
+				--auto-grid-min-size: 16rem;
+				display: grid;
+				grid-gap: 2rem;
+				grid-template-columns: repeat(
+					auto-fill,
+					minmax(var(--auto-grid-min-size), 1fr)
+				);
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-family: 'Montserrat', sans-serif;
+			}
 
-		.people-wrapper .people-item {
-			background-color: #ef4444;
-			color: #ffffff;
-			font-size: 24px;
-			list-style-type: none;
-			padding: 5rem 1rem;
-			text-align: center;
-			text-transform: capitalize;
-      font-weight: 600;
-		}
+			.people-wrapper .people-item {
+				background-color: #ef4444;
+				color: #ffffff;
+				font-size: 24px;
+				list-style-type: none;
+				padding: 5rem 1rem;
+				text-align: center;
+				text-transform: capitalize;
+				font-weight: 600;
+			}
 
-		.main-container {
-			margin: 0 auto;
-			max-width: 1170px;
-			padding:2rem 1rem;
-		}
-  </style>
-</head>
-<body>
-  <section>
-		<div class="main-container">
-			<ul class="people-wrapper">
-				<li class="people-item">Edwin Gómez</li>
-			</ul>
-		</div>
-	</section>
-</body>
+			.main-container {
+				margin: 0 auto;
+				max-width: 1170px;
+				padding: 2rem 1rem;
+			}
+		</style>
+	</head>
+	<body>
+		<section>
+			<div class="main-container">
+				<ul class="people-wrapper">
+					<li class="people-item">Edwin Gómez</li>
+					<li class="people-item">Santiago Morales</li>
+				</ul>
+			</div>
+		</section>
+	</body>
 </html>
